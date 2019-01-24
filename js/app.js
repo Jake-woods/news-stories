@@ -27,7 +27,6 @@ const returnRss = (e) => {
          }
          data.items.forEach((item) => createItem(item.title, item.link))
       });
-   console.log(url)
    e.preventDefault();
 }
 
